@@ -9,7 +9,7 @@ class greatestandsmallest{
     int num4= sc.nextInt();
 
     int smallest=num1;
-    int greatest=num2;
+    int greatest=num1;
 
     if(num2>greatest)
       greatest=num2;
@@ -21,7 +21,7 @@ class greatestandsmallest{
     else if(num3<smallest)
       smallest=num3;
 
-    if(num4>greatst)
+    if(num4>greatest)
       greatest=num4;
     else if(num4<smallest)
       smallest=num4;
